@@ -11,7 +11,7 @@ let gameOver = false;
 function main(currentTime) {
   if(gameOver) {
     if(confirm('Press ok to restart')) {
-      window.location.assign('/');
+      window.location.assign('');
     }
     return 
   }
